@@ -1,0 +1,58 @@
+{
+    "Python Boilerplate": {
+        "prefix": "boiler",
+        "body": [
+            "def main():",
+            "  pass",
+            "",
+            "if __name__ == \"__main__\":",
+            "  main()"
+        ],
+        "description": "Python Boilerplate"
+    },
+    "Project Euler Boiler Plate": {
+        "prefix": "euler",
+        "body": [
+            "\"\"\"",
+            "Link: https://projecteuler.net/problem=",
+            "",
+            "",
+            "NOTES:",
+            "",
+            "\"\"\"",
+            "",
+            "def main():",
+            "  pass",
+            "",
+            "if __name__ == \"__main__\":",
+            "  main()"
+        ],
+        "description": "Project Euler Boiler Plate"
+    },
+    "Prints the entirety of a 1D array": {
+        "prefix": "parray",
+        "body": [
+            "for item in array:",
+            "  print(item)"
+        ],
+        "description": "Prints the entirety of a 1D array"
+    },
+    "Print the value of a variable": {
+        "prefix": "pvar",
+        "body": [
+            "print(f\"{v = }\")"
+        ],
+        "description": "Print the value of a variable"
+    },
+    "File IO for Competitive Programming": {
+        "prefix": "cpfile",
+        "body": [
+            "import sys",
+            "",
+            "sys.stdin = open(\"${1:file}.in\", \"r\")",
+            "# sys.stdout = open(\"${1:file}.out\", \"w\")",
+            "$0"
+        ],
+        "description": "File IO for Competitive Programming"
+    }
+}

@@ -1,0 +1,4 @@
+moalamri.inline-fold
+toba.vsfire
+fabiospampinato.vscode-todo-plus
+usernamehw.errorlens

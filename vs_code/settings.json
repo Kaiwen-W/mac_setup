@@ -1,0 +1,136 @@
+{
+  // Changing indentation and Styling for Languages
+  "editor.detectIndentation": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+    "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+
+
+  /**
+   * Better Defaults
+   **/
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "window.nativeFullScreen": false,
+  "files.insertFinalNewline": true,
+"files.trimFinalNewlines": true,
+  "window.nativeTabs": true,
+  "editor.overviewRulerBorder": false,
+
+  "editor.renderLineHighlight": "none",
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "git.decorations.enabled": false,
+  "editor.colorDecorators": false,
+  "scm.diffDecorations": "none",
+
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  /**
+   * Hidden Stuff
+   **/
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tips.enabled": false,
+
+  /**
+   * TitleBar
+   **/
+  "window.titleBarStyle": "native",
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+
+    // if sidebar right then x: 12, y: 9
+    // if sidebar left then x: 12, y: 10
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+},
+
+    // uncomment second one if sidebar on left
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 80px",  // adds padding to the left of the title bar text
+        ".monaco-workbench .part>.title>.title-label h2": "padding-left: 60px; font-size: 11px; padding-top: 0.5px; display: none", // adds padding left of the h2 which displays the type of sidebar element, e.g. explorer, version control, extensions, etc
+    },
+
+  /**
+   * Typography
+   **/
+  "editor.fontWeight": "300",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1,
+
+  /**
+   * Actual Defaults
+   **/
+  "workbench.colorTheme": "SynthWave '84",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  "editor.formatOnSave": true,
+
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cSpell.language": "en-GB",
+  "terminal.integrated.inheritEnv": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.settings.applyToAllProfiles": ["terminal.integrated.cursorStyle"],
+  "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.scrollback": 1000,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+},
+  "editor.accessibilitySupport": "off",
+  "git.postCommitCommand": "sync",
+
+"cSpell.userWords": [
+    "consec"
+]
+}

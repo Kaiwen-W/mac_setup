@@ -1,0 +1,83 @@
+[
+    /**
+    * Panels
+    **/
+    {"key": "cmd+k cmd+e", "command": "workbench.view.explorer"},
+    {"key": "cmd+k cmd+g", "command": "workbench.view.scm"},
+    {"key": "cmd+k cmd+d", "command": "workbench.view.debug"},
+    {"key": "cmd+k cmd+x", "command": "workbench.view.extensions"},
+
+    {"key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility"},
+
+    // focus on editor
+    {"key": "cmd+e", "command": "workbench.action.focusActiveEditorGroup"},
+    // focus on terminal/toggling
+    {"key": "cmd+t", "command": "workbench.action.terminal.toggleTerminal"},
+
+    /**
+    * File Explorer
+    **/
+    {"key": "cmd+d", "command": "duplicate.execute", "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"},
+    {"key": "cmd+n","command": "explorer.newFile", "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"},
+    {"key": "shift+cmd+n", "command": "explorer.newFolder", "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"},
+
+    // Switching Tabs
+    {
+        "key": "ctrl+cmd+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+cmd+tab",
+        "command": "workbench.action.previousEditor"
+    },
+
+    /**
+    * Terminal Split Panel
+    **/
+    // changed each from qwerty to dvorak
+    {"key": "ctrl+b", "command": "workbench.action.terminal.split", "when": "terminalFocus"},
+    {"key": "ctrl+d", "command": "workbench.action.terminal.focusNextPane", "when": "terminalFocus"},
+    {"key": "ctrl+i", "command": "workbench.action.terminal.focusPreviousPane", "when": "terminalFocus"},
+    {"key": "ctrl+,", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
+
+    /**
+    * Line Manipulation
+    **/
+    {"key": "cmd+l", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus"},
+    {"key": "cmd+j", "command": "editor.action.joinLines", "when": "editorTextFocus"},
+    {"key": "shift+cmd+[", "command": "editor.fold", "when": "editorFocus"},
+    {"key": "shift+cmd+]", "command": "editor.unfold", "when": "editorFocus"},
+
+    /**
+    * Multi-Cursor
+    **/
+    {"key": "cmd+backspace", "command": "editor.action.moveSelectionToPreviousFindMatch", "when": "editorFocus && editorHasMultipleSelections"},
+    {"key": "cmd+k cmd+d", "command": "editor.action.moveSelectionToNextFindMatch", "when": "editorFocus && editorHasMultipleSelections"},
+    {"key": "cmd+right", "command": "editor.action.insertCursorAtEndOfEachLineSelected", "when": "editorFocus && editorHasSelection"},
+
+    /**
+    * Split Panels
+    **/
+    // again change from qwerty to dvorak
+    {"key": "ctrl+,", "command": "workbench.action.joinAllGroups", "when": "editorFocus"}, //w
+    {"key": "ctrl+b", "command": "workbench.action.splitEditor", "when": "editorFocus"}, //n
+    {"key": "ctrl+d", "command": "workbench.action.navigateRight", "when": "editorFocus"}, //h
+    {"key": "ctrl+i", "command": "workbench.action.navigateLeft", "when": "editorFocus"}, //g
+    {"key": "ctrl+]", "command": "workbench.action.increaseViewSize", "when": "editorFocus"}, //-
+    {"key": "ctrl+[", "command": "workbench.action.decreaseViewSize", "when": "editorFocus"}, //=
+
+
+    /**
+    * Project Switching
+    **/
+    {"key": "cmd+;", "command": "workbench.action.switchWindow"},
+    {"key": "alt+cmd+right", "command": "workbench.action.showNextWindowTab"},
+    {"key": "alt+cmd+left", "command": "workbench.action.showPreviousWindowTab"},
+
+    /**
+    * IntelliSense
+    **/
+    {"key": "cmd+r", "command": "workbench.action.gotoSymbol"},
+    {"key": "cmd+shift+r", "command": "workbench.action.showAllSymbols"},
+    {"key": "cmd+k cmd+enter", "command": "editor.action.goToDeclaration", "when": "editorTextFocus"},
+]

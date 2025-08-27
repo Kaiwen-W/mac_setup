@@ -1,0 +1,15 @@
+theme = SynthwaveAlpha
+cursor-style = bar
+font-family = MesloLGS NF
+font-size = 18
+font-thicken
+
+
+
+cursor-click-to-move
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+
+
+keybind = cmd+j=copy_to_clipboard
+keybind = cmd+k=paste_from_clipboard
