@@ -4,7 +4,11 @@ Must have extensions are in `extensions.txt`.
 
 Extensions to consider are in `consider.txt`.
 
-To install run `cat extensions.txt | xargs -L 1 code --install-extension`.
+To install run
+
+```
+cat extensions.txt | xargs -L 1 code --install-extension
+```
 
 ## Must have (`extensions.txt`) explanations
 

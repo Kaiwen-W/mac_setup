@@ -3,7 +3,7 @@
 ffmpeg - everything audio and video related
 
 - `brew install ffmpeg`
-- https://ffmpeg.org/
+- https://ffmpeg.org/`
 
 # Python
 
@@ -44,5 +44,8 @@ If there is a TooManyRedirects error for spot-dl, see https://github.com/spotDL/
 
 ## Node Version Manager (NVM)
 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
 - https://github.com/nvm-sh/nvm
-- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
