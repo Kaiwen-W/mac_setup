@@ -143,24 +143,20 @@ _fzf_compgen_dir() {
   - fd by default ignores any .gitignore files
 - `export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"`
   - changes the assigns the ctrl + t command into the default command
--
-
-```
+- ```
   _fzf_compgen_path() {
-    fd --hidden --exclude .git . "$1"
+      fd --hidden --exclude .git . "$1"
   }
-```
+  ```
 
-    - function is for the \*\* completion when looking for files and directories
+- function is for the \*\* completion when looking for files and directories
 
--
-
-```
-_fzf_compgen_dir() {
+- ```
+  _fzf_compgen_dir() {
   fd --type=d --hidden --exclude .git . "$1"
-}
-```
+  }
+  ```
 
-    - function is for ** Tab functionality but with directories
+  - function is for \*\* Tab functionality but with directories
 
 Then run: `source ~/.zshrc`
