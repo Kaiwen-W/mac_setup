@@ -8,6 +8,7 @@ Based on tutorials from Josean Martinez:
 - https://www.josean.com/posts/how-to-setup-alacritty-terminal
 - https://www.josean.com/posts/7-amazing-cli-tools
 
+`source ~/.zshrc` reloads the configuration
 Install Oh My Zsh:
 
 ```
@@ -149,7 +150,7 @@ _fzf_compgen_dir() {
   }
   ```
 
-- function is for the \*\* completion when looking for files and directories
+  - function is for the \*\* completion when looking for files and directories
 
 - ```
   _fzf_compgen_dir() {
@@ -160,3 +161,68 @@ _fzf_compgen_dir() {
   - function is for \*\* Tab functionality but with directories
 
 Then run: `source ~/.zshrc`
+
+#### fzf-git - script to look for git related things with fzf
+
+- https://github.com/junegunn/fzf-git.sh
+
+```
+git clone https://github.com/junegunn/fzf-git.sh.git
+```
+
+Open `~/.zshrc` and add: `source ~/fzf-git.sh/fzf-git.sh`
+Then run: `source ~/.zshrc`.
+
+| **Keybind** | **Description**                     |
+| ----------- | ----------------------------------- |
+| `CTRL-GF`   | Look for git files with fzf         |
+| `CTRL-GB`   | Look for git branches with fzf      |
+| `CTRL-GT`   | Look for git tags with fzf          |
+| `CTRL-GR`   | Look for git remotes with fzf       |
+| `CTRL-GH`   | Look for git commit hashes with fzf |
+| `CTRL-GS`   | Look for git stashes with fzf       |
+| `CTRL-GL`   | Look for git reflogs with fzf       |
+| `CTRL-GW`   | Look for git worktrees with fzf     |
+| `CTRL-GE`   | Look for git for-each-ref with fzf  |
+
+Done by holding down `ctrl` and pressing a key combo consecutively and quickly.
+
+- by itself to look at the git thing mentioned
+- or after:
+  - git diff `keybind`
+  - git switch `keybind`
+
+### bat - better cat
+
+- alternative to cat to display file contents in the terminal with syntax highlighting
+- https://github.com/sharkdp/bat
+- `brew install bat`
+
+To use: `bat filename.txt`
+
+#### Installing a custom theme
+
+For the first time, create the following directory:
+
+```
+mkdir -p "$(bat --config-dir)/themes"
+```
+
+Then cd into it:
+
+```
+cd "$(bat --config-dir)/themes"
+```
+
+Then download the theme into this directory (note the theme must end in the `.tmTheme` extension)
+
+- e.g. using curl -O which downloads a file at a URL into the current working directory
+
+Then run: `bat cache --build`
+And add the following to `~/.zshrc`:
+
+```
+# ----- Bat (better cat) -----
+
+export BAT_THEME=synthwave_84
+```
