@@ -55,7 +55,9 @@ Make sure to type `cat -v` then press on the up and down arrow keys and replace 
 
 # ZSH Plugins
 
-#### zsh-autosuggestions:
+Navigate to the home directory with: `cd`
+
+### zsh-autosuggestions:
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -77,7 +79,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 Then load with: `source ~/.zshrc`
 
-zoxide - better cd, eza - better ls:
+### zoxide - better cd, eza - better ls:
 
 - switched from lsd to eza because eza is faster than lsd
 
@@ -94,6 +96,71 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 ```
 
-fzf - command line fuzzy finder
+### fzf - command line fuzzy finder
 
 - https://github.com/junegunn/fzf
+- `brew install fzf`
+
+Then in `~./zshrc` add: `eval "$(fzf --zsh)"`
+
+Usage:
+
+- when looking for files in command line: press `ctrl + t` to use fzf, then enter to use or use `**` then Tab
+- to look at history: `ctrl + r`
+- when looking at ENV variables: `unset **` then Tab
+- when looking at exports: `export **` then Tab
+
+#### fd - better find command (used here as an addon for fzf)
+
+- https://github.com/sharkdp/fd
+- allows ignoring files which are ignored by git
+- `brew install fd`
+
+Add the following to `~/.zshrc`:
+
+```
+# -- Use fd instead of fzf --
+
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+
+# Use fd (https://github.com/sharkdp/fd) for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fd --hidden --exclude .git . "$1"
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fd --type=d --hidden --exclude .git . "$1"
+}
+```
+
+- `export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"` - changes the default command used by fzf to look for files and directories
+  - use fd, look for hidden directories and files, don't include the current working directory and exclude any `.git` files
+  - fd by default ignores any .gitignore files
+- `export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"`
+  - changes the assigns the ctrl + t command into the default command
+-
+
+```
+  _fzf_compgen_path() {
+    fd --hidden --exclude .git . "$1"
+  }
+```
+
+    - function is for the \*\* completion when looking for files and directories
+
+-
+
+```
+_fzf_compgen_dir() {
+  fd --type=d --hidden --exclude .git . "$1"
+}
+```
+
+    - function is for ** Tab functionality but with directories
+
+Then run: `source ~/.zshrc`
