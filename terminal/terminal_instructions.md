@@ -55,7 +55,7 @@ Make sure to type `cat -v` then press on the up and down arrow keys and replace 
 
 # ZSH Plugins
 
-zsh-autosuggestions:
+#### zsh-autosuggestions:
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -63,7 +63,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 - when you want to use a suggestion, use the right arrow key.
 
-zsh-syntax-highlighting:
+### zsh-syntax-highlighting:
 
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -95,3 +95,5 @@ alias cd="z"
 ```
 
 fzf - command line fuzzy finder
+
+- https://github.com/junegunn/fzf
