@@ -217,6 +217,9 @@ cd "$(bat --config-dir)/themes"
 Then download the theme into this directory (note the theme must end in the `.tmTheme` extension)
 
 - e.g. using curl -O which downloads a file at a URL into the current working directory
+- ```
+  curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/terminal/synthwave_84.tmTheme
+  ```
 
 Then run: `bat cache --build`
 And add the following to `~/.zshrc`:
