@@ -1,3 +1,4 @@
+aldente
 alt-tab
 amazon-q
 arc
@@ -11,6 +12,8 @@ iina
 karabiner-elements
 latest
 linearmouse
+logi-options+
+logitech-g-hub
 lunar-client
 microsoft-excel
 microsoft-onenote
