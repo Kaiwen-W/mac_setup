@@ -91,11 +91,14 @@ brew install zoxide eza
 Then add the following to `~/.zshrc`:
 
 ```
-alias ls="eza --icons=always"
+alias ls="eza --color=always --long --icons=always --no-time --no-user --no-permissions --no-filesize"
+alias lst="eza --color=always --tree --icons=always --level=2"
 
 eval "$(zoxide init zsh)"
 alias cd="z"
 ```
+
+- lst will show a tree view only going down 2 levels
 
 ### fzf - command line fuzzy finder
 
@@ -192,6 +195,31 @@ Done by holding down `ctrl` and pressing a key combo consecutively and quickly.
   - git diff `keybind`
   - git switch `keybind`
 
+#### fzf previews
+
+Use bat and eza to preview a file/directory while using fzf.
+
+In `~/.zshrc`:
+
+```
+show_file_or_dir_preview="if [ -d {} ]; then eza --tree --color=always {} | head -200; else bat -n --color=always --line-range :500 {}; fi"
+
+export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+
+_fzf_comprun() {
+  local command=$1
+  shift
+
+  case "$command" in
+    cd)           fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
+    export|unset) fzf --preview "eval 'echo ${}'"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview "$show_file_or_dir_preview" "$@" ;;
+  esac
+}
+```
+
 ### bat - better cat
 
 - alternative to cat to display file contents in the terminal with syntax highlighting
@@ -220,6 +248,7 @@ Then download the theme into this directory (note the theme must end in the `.tm
 - ```
   curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/terminal/synthwave_84.tmTheme
   ```
+  - theme taken from https://github.com/lucasvscn/synthwave-sublime
 
 Then run: `bat cache --build`
 And add the following to `~/.zshrc`:
@@ -229,3 +258,48 @@ And add the following to `~/.zshrc`:
 
 export BAT_THEME=synthwave_84
 ```
+
+Then run: `source ~/.zshrc`
+
+### Delta - better git diff
+
+- https://github.com/dandavison/delta
+- `brew install git-delta`
+
+Then open `code ~/.gitconfig` and add the following:
+
+```
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    side-by-side = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+```
+
+### tldr - shorter man (summary of CLI tools)
+
+- https://github.com/tldr-pages/tldr
+- `brew install tlrc`
+  - use tlrc instead of tldr as we want to use the rust client
+- usage: `tldr eza` - this will tell you more about eza
+
+### thefuck - autocorrect mistyped commands
+
+- https://github.com/nvbn/thefuck
+- `brew install thefuck`
+
+Then add the following to `~/.zshrc`: `eval $(thefuck --alias fk)`
+
+Now if mistype a command you can run `fk` afterwards.
+
+If there are more than one result you can use your up and down arrow keys and then enter to select the one you want.
