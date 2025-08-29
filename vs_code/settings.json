@@ -129,8 +129,7 @@
 },
   "editor.accessibilitySupport": "off",
   "git.postCommitCommand": "sync",
-
-"cSpell.userWords": [
-    "consec"
-]
+"workbench.secondarySideBar.defaultVisibility": "hidden",
+"workbench.sideBar.location": "right",
+"window.confirmBeforeClose": "keyboardOnly"
 }

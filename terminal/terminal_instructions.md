@@ -226,6 +226,7 @@ _fzf_comprun() {
 - https://github.com/sharkdp/bat
 - `brew install bat`
 
+Add `alias cat="bat"` to `~/.zshrc`
 To use: `bat filename.txt`
 
 #### Installing a custom theme
