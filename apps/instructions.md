@@ -14,6 +14,8 @@ Run `xargs brew install < apps.txt` to install all the apps at once
 
 After installation, run `rm apps.txt`
 
+To use steam, install rosetta 2: `softwareupdate --install-rosetta --agree-to-license`
+
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
 
 Legcord - discord but better
