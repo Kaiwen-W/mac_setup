@@ -220,7 +220,9 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
   - Last Two Thirds -> `ctrl + opt + N`
   - Left Half -> `ctrl + opt + left arrow`
   - Maximize -> `ctrl + opt + enter`
+  - Next Desktop -> `ctrl + cmd + right arrow`
   - Next Display -> `ctrl + opt + cmd + right arrow`
+  - Previous Desktop -> `ctrl + cmd + left arrow`
   - Previous Display -> `ctrl + opt + cmd + left arrow`
   - Right Half -> `ctrl + opt + right arrow`
   - Toggle Fullscreen -> `ctrl + opt + \`
