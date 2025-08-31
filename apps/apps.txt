@@ -13,7 +13,6 @@ karabiner-elements
 latest
 linearmouse
 logi-options+
-logitech-g-hub
 lunar-client
 microsoft-excel
 microsoft-onenote
