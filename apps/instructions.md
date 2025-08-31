@@ -1,6 +1,17 @@
 # Installing Apps
+Homebrew - package manager 
+- https://brew.sh
+- ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+- Remember to do the "Next steps" outlined at the end of the install
 
-After homebrew is installed, run `xargs brew install < apps.txt` to install all the apps at once.
+```
+curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/apps/apps.txt
+``` 
+
+Run `xargs brew install < apps.txt` to install all the apps at once
+After installation, run `rm apps.txt`
 
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
 
