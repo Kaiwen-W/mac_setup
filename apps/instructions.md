@@ -69,3 +69,7 @@ TinkerTool - gives access to additional preference settings in MacOS
 
 Logitech G Hub - helper tool for Logitech G devices
 - https://www.logitechg.com/en-eu/innovation/g-hub.html
+
+# Notes
+
+microsoft-auto-update will also be installed if any of the office suite is installed
