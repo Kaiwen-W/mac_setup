@@ -11,6 +11,7 @@ curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/app
 ``` 
 
 Run `xargs brew install < apps.txt` to install all the apps at once
+
 After installation, run `rm apps.txt`
 
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
