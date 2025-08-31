@@ -58,7 +58,7 @@ View
 - Show Status Bar -> On
 - Customise Toolbar... -> Turn off "Edit Tags"
 
-Go to home directory -> Add a new folder called "Developer" -> Add to Favourites by dragging it over
+Go to home directory -> Add a new folder called "Developer" -> Add to Favourites by dragging it over and add it between Applications and Desktop
 
 ## System Settings
 
