@@ -7,9 +7,5 @@ Order to do:
 6. vs_code
 7. gaming
 
-Homebrew - package manager 
-- https://brew.sh
-- ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-- Remember to do the "Next steps" outlined at the end of the install
+
+
