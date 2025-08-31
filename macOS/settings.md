@@ -97,6 +97,7 @@ Desktop & Dock
 - Windows
 
   - Hold `opt` key while dragging windows to tile -> On
+  - Tiled windows have margins -> Off
 
 - Mission Control
   - Group windows by application -> On
