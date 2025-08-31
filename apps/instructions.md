@@ -64,3 +64,6 @@ ProtonVPN - free VPN of choice
 TinkerTool - gives access to additional preference settings in MacOS
 
 - https://www.bresink.com/osx/TinkerTool.html
+
+Logitech G Hub - helper tool for Logitech G devices
+- https://www.logitechg.com/en-eu/innovation/g-hub.html
