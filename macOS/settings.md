@@ -90,6 +90,7 @@ Desktop & Dock
   - Position on screen -> Left
   - Minimise windows using -> Scale Effect
   - Double-click a window's title bar to -> Minimise
+  - Minimise windows into application icon -> On
   - Automatically hide and show the Dock -> On
   - Animate opening applications -> Off
 
