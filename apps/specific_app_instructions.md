@@ -204,6 +204,7 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
   - Ghostty -> `hyper + A`
   - Microsoft Word -> `hyper + E`
   - Notion -> `hyper + D`
+  - Passwords -> `hyper + P`
   - Preview -> `hyper + W`
   - Spotify / Music -> `hyper + M`
   - Visual Studio Code -> `hyper + S`
