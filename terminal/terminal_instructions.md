@@ -9,6 +9,7 @@ Based on tutorials from Josean Martinez:
 - https://www.josean.com/posts/7-amazing-cli-tools
 
 `source ~/.zshrc` reloads the configuration
+
 Install Oh My Zsh:
 
 ```
