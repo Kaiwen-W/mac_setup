@@ -102,6 +102,9 @@ Desktop & Dock
 - Mission Control
   - Group windows by application -> On
 
+- Hot Corners...
+  - Bottom right -> - (i.e. nothing)
+
 Spotlight -> Search Privacy...
 
 - Add following folders:
