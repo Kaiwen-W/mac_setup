@@ -184,6 +184,11 @@ Buttons
 
 ## Raycast
 
+During Onboarding
+
+- Turn off AI Features
+- Download the reminders extension
+
 General
 
 - Raycast Hotkey -> `cmd + Space`
