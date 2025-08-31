@@ -210,7 +210,7 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
   - Visual Studio Code -> `hyper + S`
 - Clipboard History -> `hyper + L`
 - Search Files -> `hyper + K`
-- Window Switcher
+- Window Switcher - note that the letter ones refer to the Dvorak keyboard layout
   - Bottom Half -> `ctrl + opt + down arrow`
   - Bottom Left Quarter -> `ctrl + opt + H`
   - Bottom Right Quarter -> `ctrl + opt + T`
