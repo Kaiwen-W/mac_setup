@@ -21,7 +21,6 @@ microsoft-powerpoint
 microsoft-teams
 microsoft-word
 notion
-notion-calendar
 obsidian
 onedrive --cask
 pearcleaner

@@ -55,22 +55,27 @@ View
 - Show Status Bar -> On
 - Customise Toolbar... -> Turn off "Edit Tags"
 
+Go to home directory -> Add a new folder called "Developer" -> Add to Favourites by dragging it over
+
 ## System Settings
 
 Control Centre
 
 - Control Centre Modules
 
+  - Focus -> Don't Show in Menu Bar
   - Display -> Don't Show in Menu Bar
-  - Sound -> Don't Show in Menu Bar
+  - Sound -> Always Show in Menu Bar
   - Now Playing -> Don't Show in Menu Bar
 
 - Other Modules
   - Battery
-    - Show Percentage -> On
+    - Show in Menu Bar -> Off
   - Keyboard Brightness
     - Show in Control Centre -> On
 - Menu Bar Only
+  - Clock -> Clock Options...
+    - Show date -> Always
   - Spotlight
     - Don't Show in Menu Bar -> On
 - Automatically hide and show the menu bar -> Never
@@ -92,21 +97,33 @@ Desktop & Dock
 - Mission Control
   - Group windows by application -> On
 
+Spotlight -> Search Privacy...
+
+- Add following folders:
+  - Developer
+  - Music
+
 Sound
 
 - Play sound on startup -> Off
 - Play user interface sound effects -> Off
 
+Keyboard -> Keyboard Shortcuts
+
+- Mission Control
+  - Show Desktop -> F4
+- Screenshots
+  - Screenshot and recording options -> F5
+- Spotlight
+  - Show Spotlight search -> Off
+
 Mouse
 
 - Natural Scrolling -> Off
 
-## Dock
+Trackpad
 
-Things to show in Dock
-
-- Finder
-- Arc
-- Notion
-- VS Code
-- Ghostty
+- Point & Click
+  - Tap to click -> On
+- Scroll & Zoom
+  - Natural scrolling -> Off

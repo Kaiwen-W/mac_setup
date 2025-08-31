@@ -35,6 +35,10 @@ Pure Paste - paste as plain text by default
 
 - https://apps.apple.com/gb/app/pure-paste/id1611378436?mt=12
 
+Flow - pomodoro timer
+
+- https://apps.apple.com/gb/app/flow-pomodoro-study-timer/id1423210932
+
 ### Web Download
 
 Later - save a 'state' of apps for later use
