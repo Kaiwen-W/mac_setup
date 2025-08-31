@@ -45,6 +45,7 @@ Finder Settings (`cmd + ,`)
     - Recent Tags -> Off
 - Advanced
   - Show all filename extensions -> On
+  - Show warning before changing an extension -> Off
   - Remove items from the Bin after 30 days -> On
   - When performing a search -> Search the Current Folder
 
