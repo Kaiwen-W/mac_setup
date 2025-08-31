@@ -34,6 +34,22 @@ Then you will be prompted to install the Meslo Nerd Font (MesloLGS NF), accept b
 
 Restart the terminal. You should now be seeing the PowerLevel10K configuration process. If you don’t, run: `p10k configure`.
 
+For the p10k config:
+- Prompt Style -> Lean.
+- Character Set -> Unicode.
+- Prompt Colors -> 256 Colors.
+- Show current time? -> 24-hour format.
+- Prompt Height -> Two lines.
+- Prompt Connection -> Disconnected.
+- Prompt Frame -> Right.
+- Frame Color -> Light.
+- Prompt Spacing -> Sparse.
+- Icons -> Few icons.
+- Prompt Flow -> Fluent.
+- Enable Transient Prompt? -> No.
+- Instant Prompt Mode -> Verbose
+- Apply changes to `~/.zshrc`? -> Yes
+
 # Better Zsh History Completion with Up and Down Arrows
 
 This makes it such that you can view specific past history by searching what is at the start.
