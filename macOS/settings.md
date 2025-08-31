@@ -39,6 +39,8 @@ Finder Settings (`cmd + ,`)
   - iCloud
     - iCloud Drive -> Off
     - Shared -> Off
+  - Locations
+    - K's MacBook Pro -> On
   - Tags
     - Recent Tags -> Off
 - Advanced
