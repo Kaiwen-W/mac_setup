@@ -116,14 +116,21 @@ Sound
 - Play sound on startup -> Off
 - Play user interface sound effects -> Off
 
-Keyboard -> Keyboard Shortcuts
+Keyboard 
 
-- Mission Control
-  - Show Desktop -> F4
-- Screenshots
-  - Screenshot and recording options -> F5
-- Spotlight
-  - Show Spotlight search -> Off
+- Keyboard Shortcuts
+  - Mission Control
+    - Show Desktop -> F4
+  - Screenshots
+    - Screenshot and recording options -> F5
+  - Spotlight
+    - Show Spotlight search -> Off
+
+- Text Input -> Input Sources -> Edit...
+  - Correct spelling automatically -> Off
+  - Capitalise words automatically -> Off
+  - Show inline predictive text -> Off
+  - Add full stop with double-space -> Off
 
 Mouse
 
