@@ -344,3 +344,8 @@ Then add the following to `~/.zshrc`: `eval $(thefuck --alias fk)`
 Now if mistype a command you can run `fk` afterwards.
 
 If there are more than one result you can use your up and down arrow keys and then enter to select the one you want.
+
+# Amazon Q
+Open the app, sign in, allow the accessibility setttings it needs. 
+Then run `q integrations install input-method` in ghostty.
+
