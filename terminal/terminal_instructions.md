@@ -30,25 +30,31 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 To reflect this change on your terminal, restart it or run `source ~/.zshrc`.
 
-Then you will be prompted to install the Meslo Nerd Font (MesloLGS NF), accept by pressing "y" then restart the terminal.
+To install the Meslo Nerd Font:
+ 
+```
+brew install font-meslo-lg-nerd-font
+```
 
 Restart the terminal. You should now be seeing the PowerLevel10K configuration process. If you don’t, run: `p10k configure`.
 
 For the p10k config:
-- Prompt Style -> Lean.
-- Character Set -> Unicode.
-- Prompt Colors -> 256 Colors.
-- Show current time? -> 24-hour format.
-- Prompt Height -> Two lines.
-- Prompt Connection -> Disconnected.
-- Prompt Frame -> Right.
-- Frame Color -> Light.
-- Prompt Spacing -> Sparse.
-- Icons -> Few icons.
-- Prompt Flow -> Fluent.
-- Enable Transient Prompt? -> No.
-- Instant Prompt Mode -> Verbose
-- Apply changes to `~/.zshrc`? -> Yes
+- Prompt Style -> (3) Rainbow. 
+- Character Set -> (1) Unicode.
+- Show current time? -> (2) 24-hour format.
+- Prompt Separators -> (3) Slanted.
+- Prompt Heads -> (3) Sharp.
+- Prompt Tails -> (1) Flat.
+- Prompt Height -> (2) Two lines.
+- Prompt Connection -> (3) Solid.
+- Prompt Frame -> (3) Right.
+- Frame Color -> (4) Darkest.
+- Prompt Spacing -> (2) Sparse.
+- Icons -> (2) Many icons.
+- Prompt Flow -> (2) Fluent.
+- Enable Transient Prompt? -> (y) Yes.
+- Instant Prompt Mode -> (1) Verbose
+- Apply changes to `~/.zshrc`? -> (y) Yes
 
 # Better Zsh History Completion with Up and Down Arrows
 
