@@ -6,6 +6,7 @@ visualstudioexptteam.vscodeintellicode
 visualstudioexptteam.intellicode-api-usage-examples
 mechatroner.rainbow-csv
 wayou.vscode-todo-highlight
+hideoo.toggler
 
 eliverlara.andromeda
 sdras.night-owl
@@ -24,6 +25,7 @@ esbenp.prettier-vscode
 yoavbls.pretty-ts-errors
 stylelint.vscode-stylelint
 bradlc.vscode-tailwindcss
+meganrogge.template-string-converter
 
 ms-python.isort
 ms-python.vscode-pylance
