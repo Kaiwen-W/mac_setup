@@ -7,7 +7,7 @@ Extensions to consider are in `consider.txt`.
 cd into home directory: `cd`
 
 ```
-curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/instructions.md
+curl -O https://github.com/Kaiwen-W/mac_setup/blob/main/vs_code/extensions.txt
 ```
 
 To install run
