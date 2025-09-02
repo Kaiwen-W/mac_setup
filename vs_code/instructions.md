@@ -4,11 +4,18 @@ Must have extensions are in `extensions.txt`.
 
 Extensions to consider are in `consider.txt`.
 
+cd into home directory: `cd`
+
+```
+curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/instructions.md
+```
+
 To install run
 
 ```
 cat extensions.txt | xargs -L 1 code --install-extension
 ```
+
 
 ## Must have (`extensions.txt`) explanations
 
