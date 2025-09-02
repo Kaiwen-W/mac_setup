@@ -87,12 +87,29 @@ Navigate to the home directory with: `cd`
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+```
+brew install zsh-autosuggestions
+```
+
+then add the following to `~/.zshrc`
+```
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+```
+
 - when you want to use a suggestion, use the right arrow key.
 
 ### zsh-syntax-highlighting:
 
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+```
+brew install zsh-syntax-highlighting
+```
+
+```
+echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
 
 Open `~/.zshrc` and modify the plugins line to:
