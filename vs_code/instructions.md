@@ -25,6 +25,7 @@ cat extensions.txt | xargs -L 1 code --install-extension
 - file utils: way of creating, duplicating, moving, renaming and deleting files and directories
 - rainbow csv: highlights columns in CSV with distinct colours
 - todo highlight: highlights `TODO`, `FIXME` and other annotations in code
+- toggler: allows for quick switching between opposite values with ctrl+r
 
 - andromeda: dark theme
 - night owl: dark theme
@@ -43,6 +44,7 @@ cat extensions.txt | xargs -L 1 code --install-extension
 - pretty ts errors: makes typescript errors prettier
 - stylelint: linting for CSS
 - vscode-tailwindcss: tailwind CSS intellisense
+- template string converter: converts a "" or '' string into a template string if a ${} is present within the string
 
 - all ms-python extensions are defaults from VS Code
 - python indent: correct python indentation
