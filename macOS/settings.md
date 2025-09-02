@@ -22,6 +22,8 @@ Desktop
 - When applications crash
   - Don't display anything -> On
 
+#### Remember to press reload finder and reload dock after settting these settings.
+
 # Settings changed within MacOS
 
 ## Finder
@@ -142,3 +144,10 @@ Trackpad
   - Tap to click -> On
 - Scroll & Zoom
   - Natural scrolling -> Off
+
+# Settings changed in the Terminal
+To change the size of the dock:
+
+```
+defaults write com.apple.dock "tilesize" -int "54" && killall Dock
+```
