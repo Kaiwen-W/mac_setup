@@ -12,6 +12,12 @@ Miniconda - miniature installation of Anaconda that only includes conda, Python 
 - `brew install --cask miniconda`
 - https://www.anaconda.com/docs/getting-started/miniconda/main
 
+After installation, run:
+
+```
+conda init "$(basename "${SHELL}")"
+```
+
 ## Packages
 
 uv - replacement for pip
