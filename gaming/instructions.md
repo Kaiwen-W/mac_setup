@@ -65,3 +65,4 @@ Append the following to the end of the profile_manager.json (within the square [
 Sildurs
 
 - https://sildurs-shaders.github.io/downloads/
+- https://legacy.curseforge.com/minecraft/shaders/sildurs-vibrant-shaders
