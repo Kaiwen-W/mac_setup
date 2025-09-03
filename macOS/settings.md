@@ -68,7 +68,7 @@ Control Centre
 
 - Control Centre Modules
 
-  - Focus -> Don't Show in Menu Bar
+  - Focus -> Show When Active
   - Display -> Don't Show in Menu Bar
   - Sound -> Always Show in Menu Bar
   - Now Playing -> Don't Show in Menu Bar
