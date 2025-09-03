@@ -59,3 +59,9 @@ Append the following to the end of the profile_manager.json (within the square [
 - Chat Settings
   - Width -> 211px
   - Scale -> 75%
+
+## Shaders to Download
+
+Sildurs
+
+- https://sildurs-shaders.github.io/downloads/
