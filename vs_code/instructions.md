@@ -7,7 +7,7 @@ Extensions to consider are in `consider.txt`.
 cd into home directory: `cd`
 
 ```
-https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/extensions.txt
+https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/files/extensions.txt
 ```
 
 To install run
@@ -16,6 +16,21 @@ To install run
 cat extensions.txt | xargs -L 1 code --install-extension
 ```
 
+# Keybindings / Keyboard Shortcuts
+
+Put `keybindings.json` into `keybindings.json` by opening the command palette and choosing `Preferences: Open Keyboard Shortcuts (JSON)`
+
+# User Settings
+
+Put `settings.json` into `settings.json` by opening the command palette and choosing `Preferences: Open User Settings (JSON)`
+
+# Snippets
+
+Put `python.json` into `python.json` by opening the command palette and choosing `Snippets: Configure Snippets` then choose Python.
+
+Also use https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode to generate snippets.
+
+# Extensions Explanations
 
 ## Must have (`extensions.txt`) explanations
 
@@ -56,17 +71,3 @@ cat extensions.txt | xargs -L 1 code --install-extension
 - vsfire: syntax highlighting, code completions and hover help for firestore security rules
 - todo plus: to manage to do lists
 - error lens: easier to view errors in inline code
-
-# Keybindings / Keyboard Shortcuts
-
-Put `keybindings.json` into `keybindings.json`
-
-# User Settings
-
-Put `settings.json` into `settings.json`
-
-# Snippets
-
-Put `python.json` into `python.json`
-
-Also use https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode to generate snippets.

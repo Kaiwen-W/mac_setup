@@ -106,7 +106,7 @@
   },
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
 
   "editor.formatOnSave": true,
 

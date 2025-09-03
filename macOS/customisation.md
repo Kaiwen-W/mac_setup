@@ -14,8 +14,6 @@ Stats
 
 - CPU
   - Turn off
-- GPU
-  - Turn off
 - Disk
 
   - Turn of Disk (by dragging it to the right of the "|" or by clicking on it. )
@@ -24,10 +22,17 @@ Stats
 
   - Turn on the 'default' sensor and the stacked temperature widgets
   - Module
+
     - Sensor to show -> Fans - Fastest fan
+
+    - Temperature
+      - Hottest CPU -> On
+      - Hottest GPU -> On
+
   - Widgets
     - Merge widgets -> On
 
+- Network -> Off
 - Battery
   - Add the horizontal battery
   - Widgets

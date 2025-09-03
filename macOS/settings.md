@@ -22,7 +22,7 @@ Desktop
 - When applications crash
   - Don't display anything -> On
 
-#### Remember to press reload finder and reload dock after settting these settings.
+#### Remember to press reload finder and reload dock after setting these settings.
 
 # Settings changed within MacOS
 
@@ -96,12 +96,17 @@ Desktop & Dock
   - Automatically hide and show the Dock -> On
   - Animate opening applications -> Off
 
+- Widgets
+
+  - Default web browser -> Arc
+
 - Windows
 
   - Hold `opt` key while dragging windows to tile -> On
   - Tiled windows have margins -> Off
 
 - Mission Control
+
   - Group windows by application -> On
 
 - Hot Corners...
@@ -118,9 +123,10 @@ Sound
 - Play sound on startup -> Off
 - Play user interface sound effects -> Off
 
-Keyboard 
+Keyboard
 
 - Keyboard Shortcuts
+
   - Mission Control
     - Show Desktop -> F4
   - Screenshots
@@ -146,6 +152,7 @@ Trackpad
   - Natural scrolling -> Off
 
 # Settings changed in the Terminal
+
 To change the size of the dock:
 
 ```

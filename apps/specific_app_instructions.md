@@ -1,5 +1,39 @@
 # GUI Apps:
 
+## Arc
+
+Extensions
+
+- AdBlockPlus - free ad blocker
+- Awesome Screen recorder & Screenshot
+- Dark Reader
+- Google Translate
+- JSON Formatter
+- React Developer Tools
+- Refined GitHub
+- Spotify Ad Blocker - Blockify
+- uBlock
+
+Settings
+
+- General -> Automatically update my Arc -> On
+- Links
+  - Open Little Arc when I press `opt + cmd + N` in any app -> Off
+  - Open Little Arc when clicking on links with `opt + cmd` held -> Off
+  - Links from other apps open in Little Arc -> Off
+- Shortcuts
+
+  - Show/Hide Sidebar -> `cmd + \`
+
+- Icon -> Candy Arc
+
+- Advanced
+
+  - Play Arc sound effects -> Off
+  - Haptic feedback when reordering tabs -> Off
+
+  - When opening Arc, restore windows from previous session -> On
+
 ## Firefox Developer Edition
 
 Extensions
@@ -64,6 +98,13 @@ Controls
   - Show hidden windows -> Show
   - Show fullscreen windows -> Show
   - Order windows by -> Recently Focused First
+
+#### For all of the above (change to dvorak): Shortcuts when active... ->
+
+- Close window -> ,
+- Fullscreen/Defullscreen window -> Enter
+- Quit app -> '
+- Hide/Show app -> D
 
 ## Amphetamine
 

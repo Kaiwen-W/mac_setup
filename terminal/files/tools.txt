@@ -1,0 +1,11 @@
+zsh-autosuggestions
+zsh-syntax-highlighting
+zoxide
+eza
+fzf
+fd
+bat
+git-delta
+tlrc
+thefuck
+ripgrep
