@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Battery_battery_additional</key>
+	<string>percentage</string>
+	<key>Battery_battery_hideAdditionalWhenFull</key>
+	<false/>
+	<key>CPU_state</key>
+	<false/>
+	<key>Disk_barChart_position</key>
+	<integer>3</integer>
+	<key>Disk_label_position</key>
+	<integer>2</integer>
+	<key>Disk_memory_position</key>
+	<integer>5</integer>
+	<key>Disk_mini_position</key>
+	<integer>1</integer>
+	<key>Disk_networkChart_position</key>
+	<integer>6</integer>
+	<key>Disk_pieChart_position</key>
+	<integer>4</integer>
+	<key>Disk_speed_position</key>
+	<integer>0</integer>
+	<key>Disk_state</key>
+	<false/>
+	<key>Disk_text_position</key>
+	<integer>7</integer>
+	<key>Disk_widget</key>
+	<string>speed</string>
+	<key>LaunchAtLoginNext</key>
+	<true/>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{800, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
+	<key>NSOSPLastRootDirectory</key>
+	<data>
+	Ym9va+wCAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxAEA
+	AAQAAAADAwAAAAQAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGt3YW5nAAAACQAAAAEB
+	AABEb2N1bWVudHMAAAAMAAAAAQYAABAAAAAgAAAAMAAAAAgAAAAEAwAANEMAAAAAAAAI
+	AAAABAMAAOZrAAAAAAAACAAAAAQDAAAXbAAAAAAAAAwAAAABBgAAWAAAAGgAAAB4AAAA
+	CAAAAAAEAABBxuOahQAAABgAAAABAgAAAgAAAAAAAAAfAgAAAAAAAB8CAAAAAAAAAAAA
+	AAEFAAAIAAAABAMAAAEAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+	AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQccohIaAAAAk
+	AAAAAQEAAEUyODU3M0ExLTNCMEQtNEUyOS1COUYzLTdEMTU0MkI1RTdFMhgAAAABAgAA
+	gQAAAAEAAADvEwAAAQAAAO8TAAABAAAAAQAAAAEBAAAvAAAAMAAAAAECAABkbmliAAAA
+	AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzY29kAgAAAAAAAADwAAAA/v///wEA
+	AAAAAAAAEwAAAAQQAABEAAAAAAAAAAUQAACIAAAAAAAAABAQAACsAAAAAAAAAEAQAACc
+	AAAAAAAAAAIgAACAAQAAAAAAAAUgAADwAAAAAAAAABAgAAAAAQAAAAAAABEgAAA0AQAA
+	AAAAABIgAAAUAQAAAAAAABMgAAAkAQAAAAAAACAgAABgAQAAAAAAADAgAADMAAAAAAAA
+	AAHAAADUAAAAAAAAABHAAAAgAAAAAAAAABLAAADkAAAAAAAAAAHQAADMAAAAAAAAABDQ
+	AAAEAAAAAAAAABfwAAAwAAAAAAAAACLwAACMAQAAAAAAAA==
+	</data>
+	<key>NSStatusItem Preferred Position Battery_battery</key>
+	<real>246</real>
+	<key>NSStatusItem Preferred Position RAM_mini</key>
+	<real>322</real>
+	<key>NSStatusItem Preferred Position Sensors</key>
+	<real>369</real>
+	<key>NSStatusItem Restore Position Disk_speed</key>
+	<integer>519</integer>
+	<key>NSStatusItem Restore Position Network_speed</key>
+	<integer>448</integer>
+	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>560 384 800 448 0 0 1920 1055 </string>
+	<key>Network_state</key>
+	<false/>
+	<key>Sensors_barChart_position</key>
+	<integer>3</integer>
+	<key>Sensors_label_position</key>
+	<integer>2</integer>
+	<key>Sensors_mini_position</key>
+	<integer>0</integer>
+	<key>Sensors_oneView</key>
+	<true/>
+	<key>Sensors_sensor</key>
+	<string>Fastest fan</string>
+	<key>Sensors_sensors_monospacedFont</key>
+	<false/>
+	<key>Sensors_stack_position</key>
+	<integer>1</integer>
+	<key>Sensors_state</key>
+	<true/>
+	<key>Sensors_widget</key>
+	<string>mini,sensors</string>
+	<key>runAtLoginInitialized</key>
+	<true/>
+	<key>sensor_Average GPU</key>
+	<false/>
+	<key>sensor_Hottest CPU</key>
+	<true/>
+	<key>sensor_Hottest GPU</key>
+	<true/>
+	<key>setupProcess</key>
+	<true/>
+	<key>support_ts</key>
+	<integer>1756910240</integer>
+	<key>telemetry</key>
+	<false/>
+	<key>updater_check_ts</key>
+	<integer>1756909847</integer>
+	<key>version</key>
+	<string>2.11.52</string>
+</dict>
+</plist>
