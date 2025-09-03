@@ -47,20 +47,75 @@ For the p10k config:
 - Instant Prompt Mode -> (1) Verbose
 - Apply changes to `~/.zshrc`? -> (y) Yes
 
-For the better zsh history completion:
-
-- Make sure to type `cat -v` then press on the up and down arrow keys and replace `^[[A` and `^[[B` with the key codes you got for up and down arrow keys if they are different.
-
 # Installing the Tools
 
 ```
-curl -O
-
-
+curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/terminal/files/tools.txt
 ```
 
+```
 xargs brew install < tools.txt
-
 ```
 
+Copy and paste `.example_zshrc` into `~/.zshrc`.
+
+Note: This does not include anything from `command_line_instructions.md` so do that after.
+
+### Notes
+
+#### Better zsh history completion
+
+- Make sure to type `cat -v` then press on the up and down arrow keys and replace `^[[A` and `^[[B` with the key codes you got for up and down arrow keys if they are different.
+
+#### Amazon Q
+
+- Open the app, sign in, allow the accessibility settings it needs.
+- Then run `q integrations install input-method` in ghostty.
+
+#### Delta
+
+- Open `code ~/.gitconfig` and add the following:
+
+  ```
+  [core]
+      pager = delta
+
+  [interactive]
+      diffFilter = delta --color-only
+
+  [delta]
+      navigate = true    # use n and N to move between diff sections
+      side-by-side = true
+
+  [merge]
+      conflictstyle = diff3
+
+  [diff]
+      colorMoved = default
+  ```
+
+#### Installing a custom theme for bat
+
+For the first time, create the following directory:
+
 ```
+mkdir -p "$(bat --config-dir)/themes"
+```
+
+Then cd into it:
+
+```
+cd "$(bat --config-dir)/themes"
+```
+
+Then download the theme into this directory (note the theme must end in the `.tmTheme` extension)
+
+- e.g. using curl -O which downloads a file at a URL into the current working directory
+- ```
+  curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/terminal/files/synthwave_84.tmTheme
+  ```
+  - theme taken from https://github.com/lucasvscn/synthwave-sublime
+
+Then run: `bat cache --build`
+
+# Run `source ~/.zshrc` to reload the config
