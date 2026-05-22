@@ -129,6 +129,8 @@ Keyboard
     - Show Desktop -> F4 (remember to change setting in Function Keys parct of Karabiner-Elements)
   - Spotlight
     - Show Spotlight search -> Off
+  - Services
+    - Convert text to simplified Chinese -> Off
 
 - Text Input -> Input Sources -> Edit...
   - Correct spelling automatically -> Off
