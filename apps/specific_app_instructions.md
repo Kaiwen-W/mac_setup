@@ -57,6 +57,8 @@ For all of the following:
 
 ## AltTab
 
+Appearance -> Size -> Medium
+
 Controls
 
 - Shortcut 1
