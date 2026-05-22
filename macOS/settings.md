@@ -67,26 +67,21 @@ Go to home directory -> Add a new folder called "Developer" -> Add to Favourites
 
 ## System Settings
 
-Control Centre
+Menu Bar
+- Automatically hide and show the menu bar -> Never
+
+- Menu Bar Controls
+  - Spotlight
+    - Don't Show in Menu Bar -> On
+  - Battery
+    - Show in Menu Bar -> Off
 
 - Control Centre Modules
-
   - Focus -> Show When Active
   - Display -> Don't Show in Menu Bar
   - Sound -> Always Show in Menu Bar
   - Now Playing -> Don't Show in Menu Bar
 
-- Other Modules
-  - Battery
-    - Show in Menu Bar -> Off
-  - Keyboard Brightness
-    - Show in Control Centre -> On
-- Menu Bar Only
-  - Clock -> Clock Options...
-    - Show date -> Always
-  - Spotlight
-    - Don't Show in Menu Bar -> On
-- Automatically hide and show the menu bar -> Never
 
 Desktop & Dock
 
@@ -131,9 +126,7 @@ Keyboard
 - Keyboard Shortcuts
 
   - Mission Control
-    - Show Desktop -> F4
-  - Screenshots
-    - Screenshot and recording options -> F5
+    - Show Desktop -> F4 (remember to change setting in Function Keys parct of Karabiner-Elements)
   - Spotlight
     - Show Spotlight search -> Off
 
