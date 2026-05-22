@@ -221,14 +221,15 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
 - Applications
   - Arc -> `hyper + F`
   - Finder -> `hyper + J`
-  - Firefox Developer Edition -> `hyper + R`
+  - Comet -> `hyper + R`
   - Ghostty -> `hyper + A`
   - Microsoft Word -> `hyper + E`
-  - Notion -> `hyper + D`
+  - Obsidian -> `hyper + D`
   - Passwords -> `hyper + P`
   - Preview -> `hyper + W`
   - Spotify / Music -> `hyper + M`
   - Visual Studio Code -> `hyper + S`
+  - Reminders -> `hyper + R`
 - Clipboard History -> `hyper + L`
 - Search Files -> `hyper + K`
 - Window Switcher - note that the letter ones refer to the Dvorak keyboard layout
