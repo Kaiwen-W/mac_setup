@@ -1,12 +1,9 @@
-aldente
 alt-tab
 amazon-q
 arc
 betterdisplay
-dockdoor
 firefox@developer-edition
 ghostty
-github
 jordanbaird-ice
 iina
 karabiner-elements
