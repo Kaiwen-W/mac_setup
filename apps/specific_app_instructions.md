@@ -66,26 +66,13 @@ Controls
 
   - Show windows from applications -> All apps
   - Show windows from Spaces -> All Spaces
-  - Show windows from screens -> Screen showing AltTab
-  - Show minimized windows -> Show at the end
-  - Show hidden windows -> Show at the end
-  - Show fullscreen windows -> Hide
-  - Order windows by -> Recently Focused First
-
-- Shortcut 2
-
-  - Trigger shortcut -> Hold `cmd` and press `\``
-  - After release -> Focus selected window
-
-  - Show windows from applications -> All apps
-  - Show windows from Spaces -> All Spaces
   - Show windows from screens -> All Screens
   - Show minimized windows -> Show at the end
   - Show hidden windows -> Show at the end
   - Show fullscreen windows -> Show
   - Order windows by -> Recently Focused First
 
-- Shortcut 3
+- Shortcut 2
 
   - Trigger shortcut -> Hold `opt` and press `Tab`
   - After release -> Focus selected window
