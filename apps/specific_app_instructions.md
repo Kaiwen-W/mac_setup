@@ -233,21 +233,25 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
 - Clipboard History -> `hyper + L`
 - Search Files -> `hyper + K`
 - Window Switcher - note that the letter ones refer to the Dvorak keyboard layout
-  - Bottom Half -> `ctrl + opt + down arrow`
-  - Bottom Left Quarter -> `ctrl + opt + H`
-  - Bottom Right Quarter -> `ctrl + opt + T`
-  - First Third -> `ctrl + opt + D`
-  - First Two Thirds -> `ctrl + opt + F`
-  - Last Third -> `ctrl + opt + R`
-  - Last Two Thirds -> `ctrl + opt + N`
-  - Left Half -> `ctrl + opt + left arrow`
-  - Maximize -> `ctrl + opt + enter`
-  - Next Desktop -> `ctrl + cmd + right arrow`
-  - Next Display -> `ctrl + opt + cmd + right arrow`
-  - Previous Desktop -> `ctrl + cmd + left arrow`
-  - Previous Display -> `ctrl + opt + cmd + left arrow`
-  - Right Half -> `ctrl + opt + right arrow`
-  - Toggle Fullscreen -> `ctrl + opt + \`
-  - Top Half -> `ctrl + opt + up arrow`
-  - Top Left Quarter -> `ctrl + opt + G`
-  - Top Right Quarter -> `ctrl + opt + C`
+  - Most important ones:
+    - Bottom Half -> `ctrl + opt + down arrow`
+    - Left Half -> `ctrl + opt + left arrow`
+    - Right Half -> `ctrl + opt + right arrow`
+    - Top Half -> `ctrl + opt + up arrow`
+    - Maximize -> `ctrl + opt + enter`
+    - Next Desktop -> `ctrl + cmd + right arrow`
+    - Next Display -> `ctrl + opt + cmd + right arrow`
+    - Previous Desktop -> `ctrl + cmd + left arrow`
+    - Previous Display -> `ctrl + opt + cmd + left arrow`
+    - Toggle Fullscreen -> `ctrl + opt + \`
+   
+      
+  - Less important ones:
+    - Bottom Left Quarter -> `ctrl + opt + H`
+    - Bottom Right Quarter -> `ctrl + opt + T`
+    - First Third -> `ctrl + opt + D`
+    - First Two Thirds -> `ctrl + opt + F`
+    - Last Third -> `ctrl + opt + R`
+    - Last Two Thirds -> `ctrl + opt + N`
+    - Top Left Quarter -> `ctrl + opt + G`
+    - Top Right Quarter -> `ctrl + opt + C`
