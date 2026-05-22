@@ -92,21 +92,6 @@ Controls
 - Quit app -> '
 - Hide/Show app -> D
 
-## Amphetamine
-
-Session Defaults
-
-- Default Duration -> Indefinitely
-- Forced Sleep -> On, End session when Mac is forced to sleep
-- Display Sleep -> On, Allow display sleep
-- Closed-Display Mode -> Off, Allow system sleep when display is closed
-
-## DockDoor
-
-General
-
-- Enable Window Switcher -> Off
-- Performance Profile -> Snappy
 
 ## Karabiner-Elements
 
