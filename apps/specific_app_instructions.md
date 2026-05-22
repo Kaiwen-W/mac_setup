@@ -16,7 +16,9 @@ Extensions
 
 Settings
 
-- General -> Automatically update my Arc -> On
+- General
+  - Sync Sidebar -> On
+  - Automatically update my Arc -> On
 - Links
   - Open Little Arc when I press `opt + cmd + N` in any app -> Off
   - Open Little Arc when clicking on links with `opt + cmd` held -> Off
