@@ -230,6 +230,9 @@ Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
   - Spotify / Music -> `hyper + M`
   - Visual Studio Code -> `hyper + S`
   - Reminders -> `hyper + R`
+  - Microsoft Outlook -> `hyper C`
+  - Slack -> `hyper ;`
+  - Discord -> `hyper T`
 - Clipboard History -> `hyper + L`
 - Search Files -> `hyper + K`
 - Window Switcher - note that the letter ones refer to the Dvorak keyboard layout
