@@ -5,13 +5,10 @@
 Extensions
 
 - AdBlockPlus - free ad blocker
-- Awesome Screen recorder & Screenshot
 - Dark Reader
 - Google Translate
 - JSON Formatter
-- React Developer Tools
 - Refined GitHub
-- Spotify Ad Blocker - Blockify
 - uBlock
 
 Settings
