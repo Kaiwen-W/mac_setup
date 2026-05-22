@@ -1,0 +1,26 @@
+name: Synthwave 84 (Warp)
+accent: "#ff9cf9" # neon pink for UI highlights
+cursor: "#03edf9" # bright cyan cursor
+background: "#262335" # deep purple background
+foreground: "#f8f8f2" # light foreground text
+details: darker # mark as a dark theme
+
+terminal_colors:
+  normal:
+    black: "#26233a"
+    red: "#ff6e6e"
+    green: "#2ee2a6"
+    yellow: "#ffd866"
+    blue: "#7a5cff"
+    magenta: "#ff9cf9"
+    cyan: "#03edf9"
+    white: "#f8f8f2"
+  bright:
+    black: "#6f6b8b"
+    red: "#ff6e6e"
+    green: "#2ee2a6"
+    yellow: "#ffd866"
+    blue: "#7a5cff"
+    magenta: "#ff9cf9"
+    cyan: "#03edf9"
+    white: "#ffffff"

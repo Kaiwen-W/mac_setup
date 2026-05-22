@@ -1,5 +1,5 @@
 # Installing Apps
-Homebrew - package manager 
+Homebrew - package manager
 - https://brew.sh
 - ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -8,7 +8,7 @@ Homebrew - package manager
 
 ```
 curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/apps/apps.txt
-``` 
+```
 
 Run `xargs brew install < apps.txt` to install all the apps at once
 
@@ -18,20 +18,12 @@ To use steam, install rosetta 2: `softwareupdate --install-rosetta --agree-to-li
 
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
 
-Legcord - discord but better
-
-- `brew install --cask legcord`
-- https://formulae.brew.sh/cask/legcord#default
 
 Visual Studio Code - text editor of choice
 
 - `brew install --cask visual-studio-code`
 - https://formulae.brew.sh/cask/visual-studio-code#default
 
-Boring Notch - make the MacBook notch more functional
-
-- `brew install --cask TheBoredTeam/boring-notch/boring-notch --no-quarantine`
-- https://github.com/TheBoredTeam/boring.notch/
 
 ## Apps installed not using homebrew
 
@@ -41,23 +33,16 @@ GuitarTuna - guitar tuner
 
 - https://apps.apple.com/gb/app/guitartuna-tuner-chords-tabs/id527588389
 
-Amphetamine - keeps MacBook awake when lid is closed
 
-- https://apps.apple.com/gb/app/amphetamine/id937984704?mt=12
 
 Pure Paste - paste as plain text by default
 
 - https://apps.apple.com/gb/app/pure-paste/id1611378436?mt=12
 
-Flow - pomodoro timer
 
-- https://apps.apple.com/gb/app/flow-pomodoro-study-timer/id1423210932
 
 ### Web Download
 
-Later - save a 'state' of apps for later use
-
-- https://github.com/alyssaxuu/later
 
 ProtonVPN - free VPN of choice
 

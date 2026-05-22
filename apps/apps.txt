@@ -10,12 +10,8 @@ github
 jordanbaird-ice
 iina
 karabiner-elements
-latest
 linearmouse
-logi-options+
 lunar-client
-microsoft-excel
-microsoft-onenote
 microsoft-powerpoint
 microsoft-teams
 microsoft-word
@@ -29,3 +25,14 @@ spotify
 stats
 steam
 the-unarchiver
+
+middleclick
+shottr
+xykong/tap/flux-markdown
+
+jetbrains-toolbox
+clion
+pycharm
+antigravity
+comet
+microsoft-outlook

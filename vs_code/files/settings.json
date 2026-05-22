@@ -1,25 +1,60 @@
 {
   // Changing indentation and Styling for Languages
   "editor.detectIndentation": false,
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
-    "[typescriptreact]": {
+
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
+
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
+
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-    "[json]": {
-        "editor.tabSize": 2
-    },
 
+  "[json]": {
+    "editor.tabSize": 2
+  },
+
+  // ruff stuff
+"[python]": {
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit",
+    "source.organizeImports.ruff": "explicit"
+  }
+},
+
+"[jupyter]": {
+  "editor.defaultFormatter": "charliermarsh.ruff"
+},
+
+"notebook.formatOnSave.enabled": true,
+"notebook.codeActionsOnSave": {
+  "notebook.source.fixAll.ruff": "explicit",
+  "notebook.source.organizeImports.ruff": "explicit"
+},
+
+
+// end of ruff stuff
+
+  // error lens stuff
+  "errorLens.excludeBySource": ["cSpell"],
+
+  // don't include cspell in in problems
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.useCustomDecorations": true,
+  "cSpell.textDecoration": "underline wavy #5292F7 1px",
 
   /**
    * Better Defaults
@@ -35,7 +70,7 @@
   "editor.snippetSuggestions": "top",
   "window.nativeFullScreen": false,
   "files.insertFinalNewline": true,
-"files.trimFinalNewlines": true,
+  "files.trimFinalNewlines": true,
   "window.nativeTabs": true,
   "editor.overviewRulerBorder": false,
 
@@ -101,9 +136,6 @@
    **/
   "workbench.colorTheme": "SynthWave '84",
   "security.workspace.trust.untrustedFiles": "open",
-  "[python]": {
-    "editor.formatOnType": true
-  },
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
@@ -131,5 +163,21 @@
   "git.postCommitCommand": "sync",
 "workbench.secondarySideBar.defaultVisibility": "hidden",
 "workbench.sideBar.location": "right",
-"window.confirmBeforeClose": "keyboardOnly"
+"window.confirmBeforeClose": "keyboardOnly",
+"haskell.manageHLS": "GHCup",
+"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+},
+"github.copilot.nextEditSuggestions.enabled": true,
+"liveServer.settings.donotVerifyTags": true,
+"gitlens.ai.model": "vscode",
+"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+"python.defaultInterpreterPath": "/opt/homebrew/anaconda3/envs/fooocus",
+"python.analysis.typeCheckingMode": "standard",
+"chat.viewSessions.orientation": "stacked",
+"markdown-preview-enhanced.previewTheme": "atom-dark.css",
+"errorLens.enabled": false
 }
