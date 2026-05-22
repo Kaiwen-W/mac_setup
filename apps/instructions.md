@@ -16,7 +16,13 @@ After installation, run `rm apps.txt`
 
 To use steam, install rosetta 2: `softwareupdate --install-rosetta --agree-to-license`
 
-Also do `brew install gh` to install GitHub CLI. 
+
+### Setting up GitHub CLI
+```bash
+brew install gh
+```
+
+`gh auth login` to login and select HTTPS as preferred protocol.
 
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
 
