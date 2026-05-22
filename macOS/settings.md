@@ -32,7 +32,7 @@ Finder Settings (`cmd + ,`)
 
 - General
   - Show these items on the desktop -> All Off
-  - New Finder windows show -> home directory
+  - New Finder windows show -> downloads
 - Tags -> select all tags and delete them
 - Sidebar
   - Favourites
