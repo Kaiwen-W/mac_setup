@@ -228,13 +228,14 @@ Buttons
 During Onboarding
 
 - Turn off AI Features
-- Download the reminders extension
+- Use Raycast Emoji Picker
 
 General
 
 - Raycast Hotkey -> `cmd + Space`
 - Text Size -> Small
 - Window Mode -> Compact
+- Favorites -> Show favourites in compact mode -> Off
 
 Extensions (`hyper` refers to `ctrl+opt+shift+cmd`)
 
