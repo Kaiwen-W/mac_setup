@@ -181,6 +181,30 @@ Complex Modifications
       ]
   }
   ```
+- Cmd+Opt+Ctrl+Shift + F1/F2 for keyboard brightness
+  ```
+  {
+    "description": "Cmd+Opt+Ctrl+Shift + F1/F2 for keyboard brightness",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f1",
+                "modifiers": { "mandatory": ["left_command", "left_option", "left_control", "left_shift"] }
+            },
+            "to": [{ "key_code": "illumination_decrement" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f2",
+                "modifiers": { "mandatory": ["left_command", "left_option", "left_control", "left_shift"] }
+            },
+            "to": [{ "key_code": "illumination_increment" }],
+            "type": "basic"
+        }
+    ]
+  }
+```
 
 ## Linear Mouse
 
