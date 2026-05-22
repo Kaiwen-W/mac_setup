@@ -4,9 +4,12 @@ Things to show in Dock
 
 - Finder
 - Arc
-- Notion
+- Comet
+- Obsidian
 - VS Code
 - Ghostty
+- Outlook
+- Spotify
 
 # Menu Bar
 
