@@ -16,6 +16,8 @@ After installation, run `rm apps.txt`
 
 To use steam, install rosetta 2: `softwareupdate --install-rosetta --agree-to-license`
 
+Also do `brew install gh` to install GitHub desktop. 
+
 ## Apps which are installed with homebrew but `xargs brew install < apps.txt` didn't work
 
 
