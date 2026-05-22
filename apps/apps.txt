@@ -33,3 +33,6 @@ pycharm
 antigravity
 comet
 microsoft-outlook
+
+slack 
+discord
