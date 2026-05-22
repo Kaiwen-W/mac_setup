@@ -35,6 +35,9 @@ Finder Settings (`cmd + ,`)
   - New Finder windows show -> downloads
 - Tags -> select all tags and delete them
 - Sidebar
+  - Show these items in the sidebar
+    - Recents -> Off
+    - Shared -> Off
   - Favourites
     - AirDrop -> Off
     - Home directory -> On
