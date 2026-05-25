@@ -10,6 +10,8 @@ Extensions
 - JSON Formatter
 - Refined GitHub
 - uBlock
+- Untrap for YouTube: https://chromewebstore.google.com/detail/untrap-for-youtube-%E2%80%94-bloc/enboaomnljigfhfjfoalacienlhjlfil
+- Social Focus: https://chromewebstore.google.com/detail/socialfocus-%E2%80%94-hide-feeds/abocjojdmemdpiffeadpdnicnlhcndcg
 
 Settings
 
