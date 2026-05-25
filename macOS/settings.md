@@ -160,6 +160,6 @@ defaults write com.apple.dock "tilesize" -int "54" && killall Dock
 To disable windows management animation:
 
 ```
-defaults delete -g NSWindowResizeTime
+defaults write -g NSWindowResizeTime -float 0.003
 killall Finder
 ```
