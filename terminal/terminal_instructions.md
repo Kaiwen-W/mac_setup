@@ -63,6 +63,11 @@ Note: This does not include anything from `command_line_instructions.md` so do t
 
 ### Notes
 
+#### Install fzf-git
+```bash
+git clone https://github.com/junegunn/fzf-git.sh.git ~/fzf-git.sh
+```
+
 #### Better zsh history completion
 
 - Make sure to type `cat -v` then press on the up and down arrow keys and replace `^[[A` and `^[[B` with the key codes you got for up and down arrow keys if they are different.
