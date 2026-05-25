@@ -156,3 +156,10 @@ To change the size of the dock:
 ```
 defaults write com.apple.dock "tilesize" -int "54" && killall Dock
 ```
+
+To disable windows management animation:
+
+```
+defaults delete -g NSWindowResizeTime
+killall Finder
+```
