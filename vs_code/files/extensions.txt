@@ -9,7 +9,6 @@ wayou.vscode-todo-highlight
 hideoo.toggler
 
 eliverlara.andromeda
-sdras.night-owl
 robbowen.synthwave-vscode
 subframe7536.custom-ui-style
 pkief.material-icon-theme
@@ -34,3 +33,6 @@ ms-python.debugpy
 ms-python.vscode-python-envs
 kevinrose.vsc-python-indent
 charliermarsh.ruff
+mikestead.dotenv
+
+mathematic.vscode-latex
