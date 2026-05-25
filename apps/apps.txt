@@ -30,7 +30,7 @@ xykong/tap/flux-markdown
 jetbrains-toolbox
 clion
 pycharm
-antigravity
+antigravity-ide
 comet
 microsoft-outlook
 
