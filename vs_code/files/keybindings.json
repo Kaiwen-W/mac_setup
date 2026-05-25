@@ -14,6 +14,8 @@
     // focus on terminal/toggling
     {"key": "cmd+t", "command": "workbench.action.terminal.toggleTerminal"},
 
+    {"key": "cmd+\\", "command": "workbench.action.toggleAuxiliaryBar"},
+
     /**
     * File Explorer
     **/
