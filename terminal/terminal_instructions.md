@@ -72,7 +72,7 @@ git clone https://github.com/junegunn/fzf-git.sh.git ~/fzf-git.sh
 
 - Make sure to type `cat -v` then press on the up and down arrow keys and replace `^[[A` and `^[[B` with the key codes you got for up and down arrow keys if they are different.
 
-#### Amazon Q
+#### Kiro CLI
 
 - Open the app, sign in, allow the accessibility settings it needs.
 - Then run `q integrations install input-method` in ghostty.
