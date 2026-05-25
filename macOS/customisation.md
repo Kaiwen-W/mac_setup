@@ -56,9 +56,8 @@ Ice
 - Formatting (anything not mentioned is hidden) (from right to left)
   1. Wifi
   2. Sound
-  3. Stats - Battery
-  4. Stats - RAM
-  5. Stats - Sensors
-  6. Later
-  7. Amphetamine
-  8. Flow
+  3. Keyboard Layout
+  4. Stats - Battery
+  5. Stats - RAM
+  6. Stats - Sensors
+  7. Shottr
