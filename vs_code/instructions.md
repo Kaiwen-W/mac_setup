@@ -7,13 +7,17 @@ Extensions to consider are in `consider.txt`.
 cd into home directory: `cd`
 
 ```
-https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/files/extensions.txt
+curl -O https://raw.githubusercontent.com/Kaiwen-W/mac_setup/refs/heads/main/vs_code/files/extensions.txt
 ```
 
 To install run
 
 ```
 cat extensions.txt | xargs -L 1 code --install-extension
+```
+
+```
+rm -rf extensions.txt
 ```
 
 # Keybindings / Keyboard Shortcuts
