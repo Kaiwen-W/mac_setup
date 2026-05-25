@@ -3,6 +3,7 @@ zsh-syntax-highlighting
 zoxide
 eza
 fzf
+fzf-git.sh
 fd
 bat
 git-delta
