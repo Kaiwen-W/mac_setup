@@ -36,3 +36,5 @@ microsoft-outlook
 
 slack 
 discord
+
+lm-studio
