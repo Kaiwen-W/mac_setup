@@ -55,6 +55,12 @@ Create a new folder called 'Obsidian Vault' in Documents.
 
 `git clone https://github.com/Kaiwen-W/obsidian-notes.git`
 
+Go into community plugins, then select copilot. 
+Options -> Models -> Add models, select LM studio and paste in the URL with /v1 appended to the end
+
+## LM-Studio
+Download Qwen3.6 35B 
+
 
 # Add-on / Helper Apps:
 
